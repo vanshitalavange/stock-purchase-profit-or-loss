@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stocks</title>
-    <link href="styles.css" rel="stylesheet"/>
-</head>
-<body>
-    <div class="container-main">
-   <h1>Stocks</h1>
-  <div class="container">
-      <label for="initial-price">Intial Price</label>
-      <input id="initial-price" type="number" placeholder="Enter Intial Price Here"/>
-      <label for="stocksquantity" type="number">Number of stocks</label>
-      <input id="stocksquantity" type="number" placeholder="Enter the number od stocks bought"/>
-      <label for="current-price" type="number">Current Price</label>
-      <input id="current-price" type="number" placeholder="Enter the current price of stocks"/>
-     
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Stocks</h1>
+      <img class="img-stock" src="images/stocks.svg" />
+      <div class="container-main">
+        <label for="initial-price">Intial Price</label>
+        <input
+          id="initial-price"
+          type="number"
+          placeholder="Enter Intial Price Here"
+        />
+        <label for="stocksquantity" type="number">Number of stocks</label>
+        <input
+          id="stocksquantity"
+          type="number"
+          placeholder="Enter the number of stocks bought"
+        />
+        <label for="current-price" type="number">Current Price</label>
+        <input
+          id="current-price"
+          type="number"
+          placeholder="Enter the current price of stocks"
+        />
 
-      <button id="submit-btn">Get update</button>
-      <div id="output"></div>
-    </div>
+        <button id="submit-btn">Get update</button>
+        <div id="output"></div>
+      </div>
     </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
