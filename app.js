@@ -33,9 +33,11 @@ var outputEl = document.querySelector("#output");
 
 
 submitBtn.addEventListener("click", function calculate() {
-
-  if (Number(initialPrice.value) === 0 || Number(stocksQuantity.value) === 0 || Number(currentPrice.value) === 0) {
+  if (initialPrice.value === "" || stocksQuantity.value === "" || currentPrice.value === "") {
     outputEl.textContent = "All fields are mandatory 😑";
+  } 
+  else if (Number(initialPrice.value) === 0 || Number(stocksQuantity.value) === 0 || Number(currentPrice.value) === 0) {
+    outputEl.textContent = "Value cannot be zero 😑";
   } else {
 
       const prevalue = Number(initialPrice.value) * Number(stocksQuantity.value);
