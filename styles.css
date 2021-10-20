@@ -2,8 +2,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #E5E7EB
-  ;
+  background-color: #e5e7eb;
 }
 :root {
   --primary-color: #059669;
@@ -66,5 +65,14 @@ input {
   text-align: center;
   font-weight: bold;
   margin-top: 1.5rem;
-  margin-bottom: 4rem;
+}
+
+.social-links {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.8rem;
+}
+.social-links i {
+  color: var(--primary-color);
 }
