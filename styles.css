@@ -2,7 +2,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #d1fae5;
+  background-color: #E5E7EB
+  ;
 }
 :root {
   --primary-color: #059669;
@@ -24,7 +25,7 @@ h1 {
   margin-top: 2.5rem;
   font-size: 3rem;
   color: var(--primary-color);
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .container-main {
   width: 50%;
